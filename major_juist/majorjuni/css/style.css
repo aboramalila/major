@@ -1,0 +1,218 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: "drybrush";
+  src: url("./assets/fonts/drybrush/drybrush.woff2") format("woff2"),
+  url("./assets/fonts/drybrush/drybrush.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "akukamu";
+  src: url("./assets/fonts/akukamu/akukamu.woff2") format("woff2"),
+  url("./assets/fonts/akukamu/akukamu.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "allerlight";
+  src: url("./assets/fonts/allerlt/allerlt.woff2") format("woff2"),
+  url("./assets/fonts/allerlt/allerlt.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "allerbold";
+  src: url("./assets/fonts/allerbd/allerbd.woff2") format("woff2"),
+  url("./assets/fonts/allerbd/allerbd.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+.headerHome{
+  margin-top: -5rem;
+  width: 136.6rem;
+  height: 102.1rem;
+  background-repeat: no-repeat;
+  background-image: url('../assets/img/headerhome.png');
+}
+
+.logoHeader{
+  margin-left: 18rem;
+}
+
+.navHeader{
+  text-decoration: none;
+  color: #3c3f9c;
+  font-size: 1.8rem;
+  font-family: 'allerbold';
+  margin-left: 12.4rem;
+}
+
+#top{
+  width: 50rem;
+  margin: 0 auto;
+}
+
+.titelCruise{
+  margin: 0 auto;
+  margin-top: 24.7rem;
+  text-align: center;
+  color: #b6315c;
+  font-size: 6rem;
+  font-family: 'drybrush';
+}
+
+.subtitelCruise{
+  margin: 0 auto;
+  margin-top: 8.2rem;
+  margin-bottom: 2.9rem;
+  width: 15rem;
+  text-align: center;
+  color: #3b2450;
+  font-size: 3rem;
+  font-family: 'allerbold';
+}
+
+.sloganCruise{
+  margin: 0 auto;
+  width: 25rem;
+  text-align: center;
+  color: #3b2450;
+  font-size: 1.8rem;
+  font-family: 'allerlight';
+}
+
+.navigation {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.btnHeader{
+  margin-left: 49.7rem;
+  margin-right: -46.2rem;
+  margin-top: 4.2rem;
+  padding: 2rem 8rem;
+  border: none;
+  border-radius: 30rem;
+  width: 10rem;
+  background-color: #3b2450;
+  color: #ffe3f8;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-family: 'akukamu';
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#dagen{
+  display: flex;
+  margin-left: 2rem;
+}
+
+.navDagen {
+  margin-left: 1.7rem;
+  width: 50rem;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'akukamu';
+  font-size: 2.4rem;
+  color: #3c3f9c;
+  font-weight: bold;
+}
+
+.afbeeldingVerne{
+  margin-left: 14.8rem;
+  margin-right: 17.5rem;
+  margin-top: 3.5rem;
+  margin-bottom: 12.5rem;
+}
+
+.navHDagen{
+  height: 6.3rem;
+  background-color: #c7daf4;
+}
+
+.kapiteinVerne{
+  margin-top: -17rem;
+  display: flex;
+  background-color: #3c3f9c;
+  width: 100%;
+  height: 68.9rem;
+}
+
+.naamKapitein{
+  margin-top: 22.5rem;
+  margin-bottom: 1.7rem;
+  font-family: 'drubrush';
+  font-size: 3rem;
+  color: #ffe3f8;
+}
+
+.infoKapitein{
+  font-family: 'allerlight';
+  font-size: 1.6rem;
+  padding-bottom: 3rem;
+  color: white;
+  width: 38.8rem;
+}
+
+#dag1{
+  background-image: url();
+}
+
+.dag{
+  width: 140rem;
+}
+
+.theCruise{
+  margin: 0 auto;
+  margin-top: 7.7rem;
+  text-align: center;
+  font-family: 'drybrush';
+  font-size: 3.6rem;
+  color: #ffe3f9;
+}
+
+.imgDagen{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.titel{
+  font-family: 'akukamu';
+  font-size: 2.4rem;
+}
+
+.tekst{
+  font-family: 'allerlight';
+  font-size: 1.6rem;
+}
+
+.code{
+  color: #ffe3f8; 
+}
